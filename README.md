@@ -18,6 +18,13 @@ Install the dependencies with pip:
 python -m pip install numpy matplotlib
 ```
 
+## Compile standalone
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile SpeedAltitudeDiagram.py
+```
+
 ## Run
 
 Place `README.md` alongside `SpeedAltitudeDiagram.py`, then run:
